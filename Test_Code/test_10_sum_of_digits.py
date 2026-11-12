@@ -1,3 +1,5 @@
+import sys, os
+sys.path.append(os.getcwd())
 import importlib
 module = importlib.import_module("Code.10_sum_of_digits")
 def test_case_1():
