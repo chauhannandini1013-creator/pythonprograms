@@ -1,3 +1,5 @@
+import sys, os
+sys.path.append(os.getcwd())
 import importlib
 module = importlib.import_module("Code.08_reverse_number")
 def test_case_1():
